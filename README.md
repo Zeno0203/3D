@@ -19,11 +19,6 @@
 ![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)
 [![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
 
-## 🌐 Live Demo
-
-Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://reactjs18-3-d-portfolio.vercel.app/)
-
 ## 📝 Description
 
 **3D Portfolio** is a well-designed and fully functional portfolio website that is built with
@@ -32,7 +27,7 @@ React.js and Three.js. It is a fully responsive website that works well on all d
 <details><summary><b>Folder Structure</b></summary>
 
 ```bash
-reactjs18-3d-portfolio/
+3d-portfolio/
 ├── src/
 ├   ├── App.tsx
 ├   ├── globals.css
@@ -114,7 +109,6 @@ reactjs18-3d-portfolio/
 
 <details><summary>Table of Contents</summary>
 
-- [Live Demo](#-live-demo)
 - [Description](#-description)
 - [Technologies Used](#-technologies-used)
 - [Get Started](#-get-started)
@@ -122,12 +116,6 @@ reactjs18-3d-portfolio/
   - [Installation and Run Locally](#-installation-and-run-locally)
   - [Scripts](#-scripts)
 - [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Contributing](#-contributing)
-  - [Bug / Feature Request](#-bug--feature-request)
 - [Acknowledgements](#-acknowledgements)
 - [References](#-references)
 - [Contact Us](#-contact-us)
@@ -245,47 +233,6 @@ VITE_EMAILJS_SERVICE_ID=<VITE_EMAILJS_SERVICE_ID>
 VITE_EMAILJS_TEMPLATE_ID=<VITE_EMAILJS_TEMPLATE_ID>
 VITE_EMAIL_JS_ACCESS_TOKEN=<VITE_EMAIL_JS_ACCESS_TOKEN>
 ```
-
-## 🚀 Deployment
-
-#### Deploy to production (manual)
-
-You can create an optimized production build with the following command:
-
-```bash
-npm run build
-```
-
-#### Deploy on Vercel (recommended)
-
-The easiest way to deploy this Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fladunjexa%2Freactjs18-3d-portfolio)
-
-#### Deploy on Netlify
-
-You can also deploy this Next.js app with [Netlify](https://www.netlify.com/).
-
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ladunjexa/reactjs18-3d-portfolio)
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🔧 Contributing
-
-[![contributors](https://contrib.rocks/image?repo=ladunjexa/reactjs18-3d-portfolio)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and
-create. Any contributions you make are **greatly appreciated**.
-
-To fix a bug or enhance an existing module, follow these steps:
-
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request 🎉
 
 ### 📩 Bug / Feature Request
 
